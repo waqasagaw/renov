@@ -1,0 +1,70 @@
+body{
+	
+	text-align: center;
+	background: rgba(black, 0.5);
+	
+}
+
+.carousel{
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	display: block;
+}
+
+h5{
+	font-size: 50px;
+	background: black(0.5);
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 30px;
+
+}
+
+.sliderp {
+	background: black(0.5);
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section2{
+	height: 500px;
+	width: 100%;
+
+	flex-wrap: wrap;
+}
+
+.package{
+	padding: 50px;
+	background-color: grey;
+	display: inline-block;
+	transition: ease;
+	transform: rotate(50);
+}
+
+.package:hover{
+	transform: rotateX(10deg);
+	padding: 60px;
+}
+
+.container{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.container h3, p{
+	justify-content: center;
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.container img, .textbox{
+	width: 400px;
+	height: 200px;
+	box-sizing: border-box;
+	border: 1px black solid;
+}
+
+
